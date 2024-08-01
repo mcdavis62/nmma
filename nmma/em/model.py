@@ -19,9 +19,12 @@ ln10 = np.log(10)
 
 model_parameters_dict = {
     "Bu2019nsbh": ["log10_mej_dyn", "log10_mej_wind", "KNtheta"],
+    
     "Bu2019lm": ["log10_mej_dyn", "log10_mej_wind", "KNphi", "KNtheta"],
     "Bu2019lm_sparse": ["log10_mej_dyn", "log10_mej_wind"],
+    
     "Ka2017": ["log10_mej", "log10_vej", "log10_Xlan"],
+    
     "TrPi2018": [
         "inclination_EM",
         "log10_E0",
@@ -39,19 +42,30 @@ model_parameters_dict = {
         "d_L",
     ],
     "Piro2021": ["log10_Menv", "log10_Renv", "log10_Ee"],
+    
     "Me2017": ["log10_mej", "log10_vej", "beta", "log10_kappa_r"],
+    
     "Bu2022mv": ["log10_mej_dyn", "vej_dyn", "log10_mej_wind", "vej_wind", "KNtheta"],
+    
     "PL_BB_fixedT": ["bb_luminosity", "temperature", "beta", "powerlaw_mag"],
+    
     "blackbody_fixedT": ["bb_luminosity", "temperature"],
+    
     "synchrotron_powerlaw": ["alpha_time", "beta_freq", "F_ref"],
+    
     "CV": ["example_num"],
+    
     "AnBa2022_sparse": ["mrp", "xmix"],
     "AnBa2022_log": ["log10_mtot", "log10_mni", "vej", "log10_mrp", "xmix"],
     "AnBa2022_linear": ["mtot", "mni", "vej", "mrp", "xmix"],
+    
     "salt2": ["x0", "x1", "c"],
+    
     "nugent-hyper": ["supernova_mag_boost", "supernova_mag_stretch"],
+    
     # for Sr2023, the following array is not used
     "Sr2023": ["a_AG", "alpha_AG", "f_nu_host"],
+    
     "Bu2022Ye": [
         "log10_mej_dyn",
         "vej_dyn",
@@ -60,6 +74,7 @@ model_parameters_dict = {
         "vej_wind",
         "KNtheta",
     ],
+    
     "Bu2023Ye": [
         "log10_mej_dyn",
         "vej_dyn",
@@ -69,6 +84,7 @@ model_parameters_dict = {
         "Yewind",
         "KNtheta",
     ],
+    
     "LANLTP1": [
         "log10_mej_dyn",
         "vej_dyn",
