@@ -108,9 +108,11 @@ class LightCurveMixin:
         citation_dict = {
             **dict.fromkeys(["LANLTP1", "LANLTP2", "LANLTS1", "LANLTS2"], ["https://arxiv.org/abs/2105.11543"]),
             "Ka2017": ["https://arxiv.org/abs/1710.05463"],
+            
             **dict.fromkeys(
                 ["Bu2019lm", "Bu2019lm_sparse"], ["https://arxiv.org/abs/2002.11355", "https://arxiv.org/abs/1906.04205"]
             ),
+            
             **dict.fromkeys(
                 [
                     "AnBa2022_sparse",
@@ -120,14 +122,21 @@ class LightCurveMixin:
                 ["https://arxiv.org/abs/2302.09226", "https://arxiv.org/abs/2205.10421"],
             ),
             "Bu2019nsbh": ["https://arxiv.org/abs/2009.07210", "https://arxiv.org/abs/1906.04205"],
+            
             **dict.fromkeys(
                 ["Bu2022Ye", "Bu2023Ye", "Bu2022mv"], ["https://arxiv.org/abs/2307.11080", "https://arxiv.org/abs/1906.04205"]
             ),
+            
             "TrPi2018": ["https://arxiv.org/abs/1909.11691"],
+            
             "Piro2021": ["https://arxiv.org/abs/2007.08543"],
+            
             "Me2017": ["https://arxiv.org/abs/1910.01617"],
+            
             "Sr2023": [None],  # TODO: add citation,
+            
             "nugent-hyper": ["https://sncosmo.readthedocs.io/en/stable/source-list.html"],
+            
             **dict.fromkeys(["PL_BB_fixedT", "blackbody_fixedT", "synchrotron_powerlaw"], ["Analytical models"]),
         }
         
